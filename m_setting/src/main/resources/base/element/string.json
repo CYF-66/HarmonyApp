@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "m_setting"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Settings Feature Ability"
+    },
+    {
+      "name": "settings_list_title",
+      "value": "Title"
+    }
+  ]
+}

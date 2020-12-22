@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+                   ohos:height="match_parent"
+                   ohos:width="match_parent"
+                   ohos:orientation="vertical">
+    <!--head-->
+    <DirectionalLayout
+        ohos:height="40vp"
+        ohos:width="match_parent"
+        ohos:background_element="#fff"
+        ohos:orientation="horizontal">
+        <TextField
+            ohos:id="$+id:tf_search"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:background_element="$graphic:bg_common_unpress_btn"
+            ohos:bottom_margin="5vp"
+            ohos:left_margin="10vp"
+            ohos:left_padding="10vp"
+            ohos:right_margin="10vp"
+            ohos:right_padding="10vp"
+            ohos:text_alignment="vertical_center"
+            ohos:text_color="#333"
+            ohos:text_size="16fp"
+            ohos:top_margin="5vp"
+            ohos:weight="1"
+        />
+
+        <Button
+            ohos:id="$+id:search"
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:left_margin="4vp"
+            ohos:right_margin="8vp"
+            ohos:text="Search"
+            ohos:text_alignment="center"
+            ohos:text_size="16fp"
+        />
+    </DirectionalLayout>
+
+    <!--Search module-->
+    <DirectionalLayout
+        ohos:height="40vp"
+        ohos:width="match_parent"
+        ohos:background_element="#fff"
+        ohos:orientation="horizontal">
+        <Button
+            ohos:id="$+id:all_indicator"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:clickable="true"
+            ohos:element_padding="2vp"
+            ohos:enabled="true"
+            ohos:right_padding="20vp"
+            ohos:text="all"
+            ohos:text_alignment="center"
+            ohos:text_color="#F33F3F"
+            ohos:text_size="18fp"
+            ohos:weight="1"
+        />
+
+
+        <Button
+            ohos:id="$+id:sale_indicator"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:clickable="true"
+            ohos:text="sale"
+            ohos:text_alignment="center"
+            ohos:text_color="#323335"
+            ohos:text_size="18fp"
+            ohos:weight="1"
+        />
+
+        <Button
+            ohos:id="$+id:price_indicator"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:clickable="true"
+            ohos:text="price"
+            ohos:text_alignment="center"
+            ohos:text_color="#323335"
+            ohos:text_size="18fp"
+            ohos:weight="1"
+        />
+
+        <Button
+            ohos:id="$+id:choose_indicator"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:clickable="true"
+            ohos:text="choose"
+            ohos:text_alignment="center"
+            ohos:text_color="#323335"
+            ohos:text_size="18fp"
+            ohos:weight="1"
+        />
+
+
+        <Button
+            ohos:id="$+id:choose_all_indicator"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:clickable="true"
+            ohos:text="sifting"
+            ohos:text_alignment="center"
+            ohos:text_color="#323335"
+            ohos:text_size="18fp"
+            ohos:weight="1"
+        />
+
+    </DirectionalLayout>
+
+    <DirectionalLayout
+        ohos:height="1vp"
+        ohos:width="match_parent"
+        ohos:background_element="#EDF1F5"
+    />
+
+    <!--content-->
+    <ListContainer
+        ohos:id="$+id:product_lv"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:background_element="#FFF"
+    />
+</DirectionalLayout>

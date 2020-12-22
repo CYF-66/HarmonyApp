@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:left_margin="16vp"
+    ohos:right_margin="16vp"
+    ohos:orientation="vertical">
+    <DependentLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:padding="10vp"
+        >
+        <Image
+            ohos:id="$+id:iv_icon"
+            ohos:height="60vp"
+            ohos:width="60vp"
+            ohos:image_src="$media:collect_icon"
+            ohos:alpha="1"
+            ohos:scale_mode="clip_center"
+            />
+        <Text
+            ohos:right_of="$id:iv_icon"
+            ohos:id="$+id:item_name"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:text="张三"
+            ohos:left_margin="10vp"
+            ohos:text_size="20fp"
+            />
+        <Text
+            ohos:below="$id:item_name"
+            ohos:right_of="$id:iv_icon"
+            ohos:id="$+id:item_index"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:left_margin="10vp"
+            ohos:top_margin="10vp"
+            ohos:text="Item0"
+            ohos:text_size="15fp"
+            />
+    </DependentLayout>
+
+    <Component
+        ohos:height="0.5vp"
+        ohos:width="match_parent"
+        ohos:background_element="#EAEAEC"
+        />
+</DirectionalLayout>

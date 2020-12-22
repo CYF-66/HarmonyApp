@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "m_news"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_News Feature Ability"
+    },
+    {
+      "name": "sharedservice_description",
+      "value": "hap sample empty service"
+    },
+    {
+      "name": "news_text",
+      "value": "There are also smaller base stations, as large as the palm of your hand. Actually, there are many micro base stations."
+    }
+  ]
+}

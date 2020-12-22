@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+                   ohos:height="match_content"
+                   ohos:width="match_parent"
+                   ohos:orientation="horizontal">
+    <DependentLayout
+        ohos:id="$+id:productItem_rl"
+        ohos:height="130vp"
+        ohos:width="match_parent"
+        ohos:background_element="#fff">
+
+        <Image ohos:id="$+id:product_iv"
+               ohos:height="120vp"
+               ohos:width="120vp"
+               ohos:background_element="$media:product_iv"
+               ohos:left_margin="8vp"
+               ohos:vertical_center="true"/>
+
+        <Text
+            ohos:id="$+id:name_tv"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:align_top="$id:product_iv"
+            ohos:end_of="$id:product_iv"
+            ohos:left_margin="8vp"
+            ohos:max_text_lines="2"
+            ohos:multiple_lines="true"
+            ohos:right_margin="8vp"
+            ohos:text_color="#2E2E2E"
+            ohos:text_size="16fp"
+        />
+
+        <Text ohos:id="$+id:commrate_tv"
+              ohos:height="match_content"
+              ohos:width="match_content"
+              ohos:align_bottom="$id:product_iv"
+              ohos:end_of="$id:product_iv"
+              ohos:left_margin="8vp"
+              ohos:text_color="#81838E"
+              ohos:text_size="14fp"/>
+        <Text
+            ohos:id="$+id:price_tv"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:above="$id:commrate_tv"
+            ohos:bottom_margin="4vp"
+            ohos:end_of="$id:product_iv"
+            ohos:left_margin="8vp"
+            ohos:text_color="#F23030"
+            ohos:text_size="20fp"
+        />
+        <Image
+            ohos:id="$+id:image_car"
+            ohos:height="16vp"
+            ohos:width="16vp"
+            ohos:align_bottom="$id:product_iv"
+            ohos:align_parent_right="true"
+            ohos:right_margin="10vp"/>
+
+    </DependentLayout>
+
+</DirectionalLayout>

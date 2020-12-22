@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:root_layout"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DirectionalLayout
+        ohos:id="$+id:background_top"
+        ohos:height="$float:heightUpperBackGround"
+        ohos:width="match_parent"
+        ohos:align_parent_top="true"
+        ohos:background_element="$color:colorUpperBackGround"/>
+
+    <DirectionalLayout
+        ohos:id="$+id:background_bottom"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:background_element="$color:colorLowerBackGround"
+        ohos:below="$+id:background_top"/>
+
+    <DirectionalLayout
+        ohos:id="$+id:appbar"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:align_parent_top="true"
+        ohos:left_padding="$float:defaultPaddingStart"
+        ohos:orientation="horizontal"
+        ohos:right_padding="$float:defaultPaddingEnd">
+
+        <DirectionalLayout
+            ohos:id="$+id:appbar_leftpart"
+            ohos:height="$float:heightBackButtonTouchTarget"
+            ohos:width="0vp"
+            ohos:alignment="center"
+            ohos:orientation="horizontal"
+            ohos:weight="1">
+
+            <Image
+                ohos:id="$+id:appbar_backbtn"
+                ohos:height="$float:heightAppbarButtons"
+                ohos:width="$float:widthAppbarButtons"
+                ohos:foreground_element="$media:back.png"/>
+            <Text
+                ohos:id="$+id:appbar_username"
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:alpha="0"
+                ohos:left_margin="$float:marginLeftUserName"
+                ohos:text="$string:titleContactsDetail"
+                ohos:text_size="$float:textSizeUserName"/>
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:id="$+id:appbar_rightpart"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:alignment="right|vertical_center"
+            ohos:orientation="horizontal"
+            ohos:weight="1">
+
+            <Button
+                ohos:id="$+id:appbar_button1"
+                ohos:height="$float:heightAppbarButtons"
+                ohos:width="$float:widthAppbarButtons"
+                ohos:foreground_element="$media:add.png"
+                ohos:right_margin="$float:paddingAppbarButtons"/>
+
+            <Button
+                ohos:id="$+id:appbar_button2"
+                ohos:height="$float:heightAppbarButtons"
+                ohos:width="$float:widthAppbarButtons"
+                ohos:foreground_element="$media:add.png"
+                ohos:right_margin="$float:paddingAppbarButtons"/>
+
+            <Button
+                ohos:id="$+id:appbar_button3"
+                ohos:height="$float:heightAppbarButtons"
+                ohos:width="$float:widthAppbarButtons"
+                ohos:foreground_element="$media:more.png"/>
+        </DirectionalLayout>
+    </DirectionalLayout>
+
+    <ScrollView
+        ohos:id="$+id:contacts_detail_scroll"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:below="$id:appbar"
+        ohos:left_padding="$float:defaultPaddingStart"
+        ohos:right_padding="$float:defaultPaddingEnd">
+
+        <DependentLayout
+            ohos:id="$+id:contacts_detail"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="vertical">
+
+            <DependentLayout
+                ohos:id="$+id:contacts_detail_upperCard"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:align_parent_top="true"
+                ohos:background_element="$graphic:stacklayout_background"
+                ohos:orientation="vertical"
+                ohos:top_margin="$float:topMarginContactsDetailUpperCard">
+
+                <ListContainer
+                    ohos:id="$+id:contacts_detail_upperCard_list"
+                    ohos:height="0vp"
+                    ohos:width="match_parent"
+                    ohos:below="$+id:contacts_detail_title"/>
+
+                <Text
+                    ohos:id="$+id:contacts_detail_title"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:align_parent_top="true"
+                    ohos:text="$string:titleContactsDetail"
+                    ohos:text_alignment="horizontal_center"
+                    ohos:text_size="$float:textSizeContactsDetailTitle"
+                    ohos:top_margin="$float:topMarginContactsDetailTitle"/>
+            </DependentLayout>
+
+            <DependentLayout
+                ohos:id="$+id:contacts_detail_interval"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:below="$+id:contacts_detail_upperCard"
+                ohos:bottom_margin="$float:bottomMarginContactsDetailInterval"
+                ohos:top_margin="$float:topMarginContactsDetailInterval">
+
+                <Button
+                    ohos:id="$+id:contacts_detail_interval_right"
+                    ohos:height="$float:heightContactsDetailInterval"
+                    ohos:width="match_content"
+                    ohos:align_parent_right="true"
+                    ohos:right_margin="$float:marginIntervalButton"
+                    ohos:text="$string:textIntervalRightButton"
+                    ohos:text_color="$color:colorIntervalRightButton"
+                    ohos:text_size="$float:textSizeIntervalButton"/>
+
+                <Text
+                    ohos:id="$+id:contacts_detail_interval_left"
+                    ohos:height="$float:heightContactsDetailInterval"
+                    ohos:width="match_content"
+                    ohos:align_parent_left="true"
+                    ohos:left_margin="$float:marginIntervalButton"
+                    ohos:text="$string:textIntervalLeftButton"
+                    ohos:text_alignment="vertical_center"
+                    ohos:text_size="$float:textSizeIntervalButton"/>
+            </DependentLayout>
+
+            <DirectionalLayout
+                ohos:id="$+id:contacts_detail_lowerCard"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:stacklayout_background"
+                ohos:below="$+id:contacts_detail_interval"
+                ohos:bottom_margin="$float:bottomMarginLowerCard"
+                ohos:orientation="vertical">
+
+                <ListContainer
+                    ohos:id="$+id:contacts_detail_lowerCard_list"
+                    ohos:height="0vp"
+                    ohos:width="match_parent"
+                    ohos:top_margin="$float:topMarginLowerCardList"/>
+            </DirectionalLayout>
+
+            <Image
+                ohos:id="$+id:contacts_detail_profile"
+                ohos:height="$float:heightContactsProfile"
+                ohos:width="$float:widthContactsProfile"
+                ohos:align_parent_top="true"
+                ohos:alpha="1"
+                ohos:background_element="$media:profile"
+                ohos:center_in_parent="true"
+                ohos:top_margin="$float:topMarginContactsProfile"/>
+        </DependentLayout>
+    </ScrollView>
+
+    <DirectionalLayout
+        ohos:id="$+id:bottom_tab"
+        ohos:height="$float:heightBottomTab"
+        ohos:width="match_parent"
+        ohos:align_parent_bottom="true"
+        ohos:alignment="vertical_center"
+        ohos:background_element="$graphic:bottom_background"
+        ohos:left_padding="$float:defaultPaddingStart"
+        ohos:right_padding="$float:defaultPaddingEnd">
+
+        <DirectionalLayout
+            ohos:id="$+id:bottom_tabMenu"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:orientation="horizontal"/>
+    </DirectionalLayout>
+</DependentLayout>

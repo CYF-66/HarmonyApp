@@ -1,0 +1,162 @@
+{
+  "settingsList": [
+    {
+      "type": 0,
+      "groupName": "Settings1",
+      "items": [
+        {
+          "name": "SimpleTextItem",
+          "type": 1,
+          "data": {
+            "leftText": "Item1_1",
+            "rightText": "next"
+          }
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "groupName": "Settings2",
+      "items": [
+        {
+          "name": "SimpleTextItem",
+          "type": 1,
+          "data": {
+            "leftText": "Item2_1",
+            "rightText": "next"
+          }
+        },
+        {
+          "name": "SwitchItem",
+          "type": 2,
+          "data": {
+            "mainText": "Item2_2",
+            "subText": "sub title",
+            "defaultSwitch": true
+          }
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "groupName": "Settings3",
+      "items": [
+        {
+          "name": "SimpleTextItem",
+          "type": 1,
+          "data": {
+            "leftText": "Item3_1",
+            "rightText": "next"
+          }
+        },
+        {
+          "name": "SwitchItem",
+          "type": 2,
+          "data": {
+            "mainText": "Item3_2",
+            "subText": "sub title",
+            "defaultSwitch": true
+          }
+        },
+        {
+          "name": "SwitchItem",
+          "type": 2,
+          "data": {
+            "mainText": "Item3_3",
+            "subText": "sub title",
+            "defaultSwitch": true
+          }
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "groupName": "Settings4",
+      "items": [
+        {
+          "name": "SimpleTextItem",
+          "type": 1,
+          "data": {
+            "leftText": "Item4_1",
+            "rightText": "next"
+          }
+        },
+        {
+          "name": "SimpleTextItem",
+          "type": 1,
+          "data": {
+            "leftText": "Item4_2",
+            "rightText": "next"
+          }
+        },
+        {
+          "name": "SwitchItem",
+          "type": 2,
+          "data": {
+            "mainText": "Item4_3",
+            "subText": "sub title",
+            "defaultSwitch": true
+          }
+        },
+        {
+          "name": "SwitchItem",
+          "type": 2,
+          "data": {
+            "mainText": "Item4_4",
+            "subText": "sub title",
+            "defaultSwitch": true
+          }
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "groupName": "Settings5",
+      "items": [
+        {
+          "name": "SimpleTextItem",
+          "type": 1,
+          "data": {
+            "leftText": "Item5_1",
+            "rightText": "next"
+          }
+        },
+        {
+          "name": "SimpleTextItem",
+          "type": 1,
+          "data": {
+            "leftText": "Item5_2",
+            "rightText": "next"
+          }
+        },
+        {
+          "name": "SwitchItem",
+          "type": 2,
+          "data": {
+            "mainText": "Item5_3",
+            "subText": "sub title",
+            "defaultSwitch": true
+          }
+        },
+        {
+          "name": "SwitchItem",
+          "type": 2,
+          "data": {
+            "mainText": "Item5_4",
+            "subText": "sub title",
+            "defaultSwitch": true
+          }
+        },
+        {
+          "name": "SwitchItem",
+          "type": 2,
+          "data": {
+            "mainText": "Item5_5",
+            "subText": "sub title",
+            "defaultSwitch": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+                   ohos:height="match_content"
+                   ohos:width="match_parent"
+                   ohos:background_element="#ffffff"
+                   ohos:orientation="vertical">
+    <DirectionalLayout
+        ohos:height="120vp"
+        ohos:width="360vp"
+        ohos:layout_alignment="center"
+        ohos:left_margin="20vp">
+        <Image
+            ohos:id="$+id:icon_huawei"
+            ohos:height="60vp"
+            ohos:width="60vp"
+            ohos:image_src="$media:share_hua"
+            ohos:scale_mode="center"/>
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="Huawei migration"
+            ohos:text_color="#000"
+            ohos:text_size="16fp"
+            ohos:top_margin="8vp"
+        />
+    </DirectionalLayout>
+</DirectionalLayout>

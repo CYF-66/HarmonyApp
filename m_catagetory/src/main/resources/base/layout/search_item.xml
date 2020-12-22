@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="$float:searchBarDivHeight"
+    ohos:width="match_parent">
+
+    <DependentLayout
+        xmlns:ohos="http://schemas.huawei.com/res/ohos"
+        ohos:height="$float:searchBarHeight"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:search_box_background"
+        ohos:center_in_parent="true">
+
+        <Image
+            ohos:id="$+id:search_bar_search_icon"
+            ohos:height="$float:searchIconHeight"
+            ohos:width="$float:searchIconWidth"
+            ohos:align_parent_left="true"
+            ohos:center_in_parent="true"
+            ohos:image_src="$graphic:icon_search"
+            ohos:left_margin="$float:searchIconLeftMargin"
+            ohos:right_margin="$float:searchIconRightMargin"
+            ohos:scale_mode="zoom_center"/>
+
+        <Text
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:center_in_parent="true"
+            ohos:right_margin="$float:searchBarHintTextRightMargin"
+            ohos:right_of="$id:search_bar_search_icon"
+            ohos:text="$string:search_bar_hint_text"
+            ohos:text_color="$color:textColorSecondary"
+            ohos:text_font="regular"
+            ohos:text_size="$float:textSizeBody1"/>
+    </DependentLayout>
+</DependentLayout>

@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+                   ohos:height="match_parent"
+                   ohos:width="match_parent"
+                   ohos:orientation="vertical">
+    <DependentLayout
+        ohos:height="40vp"
+        ohos:width="match_parent"
+        ohos:background_element="#ffffff">
+        <Image
+            ohos:height="match_parent"
+            ohos:width="30vp"
+            ohos:align_parent_left="true"
+            ohos:image_src="$media:goback"
+            ohos:left_margin="4vp"/>
+
+        <DirectionalLayout
+            ohos:id="$+id:details_ll"
+            ohos:height="match_parent"
+            ohos:width="match_content"
+            ohos:horizontal_center="true"
+            ohos:orientation="vertical"
+        >
+            <Text
+                ohos:height="0vp"
+                ohos:width="match_parent"
+                ohos:text="Details"
+                ohos:text_alignment="center"
+                ohos:text_color="#767676"
+                ohos:text_size="20fp"
+                ohos:weight="1"/>
+        </DirectionalLayout>
+
+
+        <Image
+            ohos:id="$+id:more_iv"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:align_parent_right="true"
+            ohos:image_src="$media:more_icon"
+            ohos:right_margin="10vp"
+            ohos:vertical_center="true"/>
+        <Image
+            ohos:id="$+id:im_share"
+            ohos:height="16vp"
+            ohos:width="16vp"
+            ohos:image_src="$media:share_icon"
+            ohos:left_of="$id:more_iv"
+            ohos:right_margin="10fp"
+            ohos:vertical_center="true"/>
+    </DependentLayout>
+
+    <DirectionalLayout
+        ohos:height="1vp"
+        ohos:width="match_parent"
+        ohos:background_element="#EDF1F5"
+    >
+
+    </DirectionalLayout>
+
+
+    <!--content-->
+    <ScrollView
+        ohos:height="0vp"
+        ohos:width="match_parent"
+        ohos:weight="1">
+
+        <DirectionalLayout
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:orientation="vertical">
+
+            <!--content-head-->
+            <DependentLayout
+                ohos:height="320vp"
+                ohos:width="match_parent">
+                <Image
+                    ohos:id="$+id:im_carousel"
+                    ohos:height="320vp"
+                    ohos:width="match_parent"
+                    ohos:background_element="#000"
+                />
+
+                <Text
+                    ohos:id="$+id:vp_indic_tv"
+                    ohos:height="50vp"
+                    ohos:width="50vp"
+                    ohos:align_parent_bottom="true"
+                    ohos:align_parent_right="true"
+                    ohos:background_element="$graphic:bg_indic_bg"
+                    ohos:bottom_margin="15vp"
+                    ohos:right_margin="15vp"
+                    ohos:text="1/1"
+                    ohos:text_alignment="center"
+                    ohos:text_color="#FFFF"
+                    ohos:text_size="18fp"
+                />
+            </DependentLayout>
+
+            <DependentLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:layout_alignment="vertical_center">
+                <Text
+                    ohos:id="$+id:name_tv"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:enabled="true"
+                    ohos:left_margin="10vp"
+                    ohos:max_text_lines="2"
+                    ohos:right_margin="80vp"
+                    ohos:text="Snickers peanut rolls relieve fatigue and strengthen yourself"
+                    ohos:text_size="20fp"
+                    ohos:top_margin="10vp"
+                />
+                <Text
+                    ohos:id="$+id:self_sale_tv"
+                    ohos:height="24vp"
+                    ohos:width="36vp"
+                    ohos:align_bottom="$id:name_tv"
+                    ohos:align_parent_right="true"
+                    ohos:background_element="#F15353"
+                    ohos:bottom_padding="1vp"
+                    ohos:left_padding="6vp"
+                    ohos:right_margin="15vp"
+                    ohos:right_padding="6vp"
+                    ohos:text="SE"
+                    ohos:text_alignment="center"
+                    ohos:text_color="#fff"
+                    ohos:text_size="14fp"
+                    ohos:top_padding="1vp"/>
+            </DependentLayout>
+
+
+            <Text
+                ohos:id="$+id:recommend_p_tv"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:left_margin="10vp"
+                ohos:max_text_lines="2"
+                ohos:text_color="#F15353"
+                ohos:text_size="14fp"
+                ohos:top_margin="10vp"/>
+
+            <Button
+                ohos:id="$+id:recommend_buy_tv"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:bottom_margin="12vp"
+                ohos:clickable="true"
+                ohos:left_margin="10vp"
+                ohos:text="Click to buy !"
+                ohos:text_color="#F15353"
+                ohos:text_size="14fp"/>
+
+            <DependentLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:left_margin="10vp"
+                ohos:right_margin="10vp"
+            >
+                <Text
+                    ohos:id="$+id:price_tv"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:text="1100.0"
+                    ohos:text_color="#F15353"
+                    ohos:text_size="24fp"
+                />
+
+                <Text
+                    ohos:id="$+id:tip_tv"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:align_parent_right="true"
+                    ohos:background_element="$graphic:time_left_shap"
+                    ohos:padding="5vp"
+                    ohos:text="discount notice"
+                    ohos:text_color="#797D88"
+                    ohos:text_size="14fp"/>
+
+                <DirectionalLayout
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:below="$id:price_tv"
+                    ohos:orientation="horizontal"
+                    ohos:top_margin="10vp">
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text="Remaining   "
+                        ohos:text_color="#797D88"
+                        ohos:text_size="16fp"/>
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:padding="3vp"
+                        ohos:text="03"
+                        ohos:text_color="#797D88"
+                        ohos:text_size="16fp"/>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text=" : "
+                        ohos:text_color="#797D88"
+                        ohos:text_size="16fp"/>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:padding="3vp"
+                        ohos:text="35"
+                        ohos:text_color="#797D88"
+                        ohos:text_size="16fp"/>
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:text=" : "
+                        ohos:text_color="#797D88"
+                        ohos:text_size="16fp"/>
+
+                    <Text
+                        ohos:height="match_content"
+                        ohos:width="match_content"
+                        ohos:padding="3vp"
+                        ohos:text="41"
+                        ohos:text_color="#797D88"
+                        ohos:text_size="16fp"/>
+                </DirectionalLayout>
+            </DependentLayout>
+
+            <DirectionalLayout
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:margin="10vp"
+                ohos:orientation="vertical">
+
+
+            </DirectionalLayout>
+
+        </DirectionalLayout>
+
+    </ScrollView>
+
+    <DirectionalLayout
+        ohos:height="1vp"
+        ohos:width="match_parent"
+        ohos:background_element="#EDF1F5"
+    />
+
+    <!--bottom-->
+    <DirectionalLayout
+        ohos:height="56vp"
+        ohos:width="match_parent"
+        ohos:background_element="#FFFFFF"
+        ohos:orientation="horizontal">
+        <Text
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:bottom_padding="4vp"
+            ohos:element_top="$media:cussvc_icon"
+            ohos:text="Customer service"
+            ohos:text_alignment="center"
+            ohos:text_size="14fp"
+            ohos:top_padding="2vp"
+            ohos:weight="1"/>
+        <Text
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:bottom_padding="4vp"
+            ohos:element_top="$media:store_icon"
+            ohos:text="Shop"
+            ohos:text_alignment="center"
+            ohos:text_size="14fp"
+            ohos:top_padding="2vp"
+            ohos:weight="1"/>
+        <Text
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:bottom_padding="4vp"
+            ohos:element_top="$media:fav_icon"
+            ohos:text="attention"
+            ohos:text_alignment="center"
+            ohos:text_size="14fp"
+            ohos:top_padding="2vp"
+            ohos:weight="1"/>
+
+        <Button
+            ohos:id="$+id:addShopCar"
+            ohos:height="match_parent"
+            ohos:width="0vp"
+            ohos:background_element="#CC0000"
+            ohos:layout_alignment="right"
+            ohos:left_padding="8vp"
+            ohos:right_padding="8vp"
+            ohos:text="Shopping Cart"
+            ohos:text_alignment="center"
+            ohos:text_color="#fff"
+            ohos:text_size="16fp"
+            ohos:weight="2"/>
+    </DirectionalLayout>
+</DirectionalLayout>

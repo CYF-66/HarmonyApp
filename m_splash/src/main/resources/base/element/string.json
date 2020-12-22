@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "m_splash"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Splash Screen Ability"
+    },
+    {
+      "name": "advertise",
+      "value": "Advertise"
+    },
+    {
+      "name": "copyright",
+      "value": "You can write copyright information or other information here."
+    },
+    {
+      "name": "app_name",
+      "value": "App Name"
+    },
+    {
+      "name": "splashscreenability_description",
+      "value": "Java_Phone_Splash Screen Ability"
+    }
+  ]
+}

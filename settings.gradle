@@ -1,0 +1,1 @@
+include ':entry', ':m_setting', ':m_catagetory', ':m_card', ':m_news', ':m_splash', ':m_shopping'

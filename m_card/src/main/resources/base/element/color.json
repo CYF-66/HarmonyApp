@@ -1,0 +1,44 @@
+{
+  "color": [
+    {
+      "name": "colorAppbarIcon",
+      "value": "#E6000000"
+    },
+    {
+      "name": "colorUpperBackGround",
+      "value": "#D3D3D3"
+    },
+    {
+      "name": "colorLowerBackGround",
+      "value": "#fafafa"
+    },
+    {
+      "name": "colorIntervalRightButton",
+      "value": "#1E90FF"
+    },
+    {
+      "name": "colorTabTextSelection",
+      "value": "#254ff7"
+    },
+    {
+      "name": "colorTabTextNormal",
+      "value": "#69000000"
+    },
+    {
+      "name": "colorDoublelineListPrimaryText",
+      "value": "#E6000000"
+    },
+    {
+      "name": "colorDoublelineListSecondaryText",
+      "value": "#79000000"
+    },
+    {
+      "name": "colorBottomTabTextOn",
+      "value": "#254FF7"
+    },
+    {
+      "name": "colorBottomTabTextOff",
+      "value": "#77000000"
+    }
+  ]
+}

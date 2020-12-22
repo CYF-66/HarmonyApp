@@ -1,0 +1,180 @@
+{
+  "float": [
+    {
+      "name": "defaultPaddingStart",
+      "value": "26dp"
+    },
+    {
+      "name": "defaultPaddingEnd",
+      "value": "24dp"
+    },
+    {
+      "name": "heightUpperBackGround",
+      "value": "260vp"
+    },
+    {
+      "name": "heightBackButtonTouchTarget",
+      "value": "56vp"
+    },
+    {
+      "name": "widthBackButtonTouchTarget",
+      "value": "48vp"
+    },
+    {
+      "name": "heightAppbarButtons",
+      "value": "24vp"
+    },
+    {
+      "name": "widthAppbarButtons",
+      "value": "24vp"
+    },
+    {
+      "name": "paddingAppbarButtons",
+      "value": "24vp"
+    },
+    {
+      "name": "defaultHeightUpperCard",
+      "value": "295vp"
+    },
+    {
+      "name": "defaultHeightLowerCard",
+      "value": "215vp"
+    },
+    {
+      "name": "topMarginContactsDetailUpperCard",
+      "value": "150vp"
+    },
+    {
+      "name": "topMarginContactsProfile",
+      "value": "100vp"
+    },
+    {
+      "name": "heightContactsProfile",
+      "value": "108vp"
+    },
+    {
+      "name": "widthContactsProfile",
+      "value": "108vp"
+    },
+    {
+      "name": "textSizeContactsDetailTitle",
+      "value": "20fp"
+    },
+    {
+      "name": "topMarginContactsDetailTitle",
+      "value": "60vp"
+    },
+    {
+      "name": "bottomMarginContactsDetailInterval",
+      "value": "10vp"
+    },
+    {
+      "name": "topMarginContactsDetailInterval",
+      "value": "16vp"
+    },
+    {
+      "name": "heightContactsDetailInterval",
+      "value": "20vp"
+    },
+    {
+      "name": "marginIntervalButton",
+      "value": "10vp"
+    },
+    {
+      "name": "textSizeIntervalButton",
+      "value": "15fp"
+    },
+    {
+      "name": "heightBottomTab",
+      "value": "56vp"
+    },
+    {
+      "name": "heightTab",
+      "value": "24vp"
+    },
+    {
+      "name": "widthTab",
+      "value": "24vp"
+    },
+    {
+      "name": "textSizeTab",
+      "value": "10fp"
+    },
+    {
+      "name": "heightDivider",
+      "value": "1vp"
+    },
+    {
+      "name": "marginDivider",
+      "value": "10vp"
+    },
+    {
+      "name": "heightDoublelineList",
+      "value": "64vp"
+    },
+    {
+      "name": "topMarginLowerCardList",
+      "value": "10vp"
+    },
+    {
+      "name": "bottomMarginLowerCard",
+      "value": "100vp"
+    },
+    {
+      "name": "textSizeUserName",
+      "value": "20fp"
+    },
+    {
+      "name": "marginLeftUserName",
+      "value": "10vp"
+    },
+    {
+      "name": "bottomMarginDoublelineList",
+      "value": "8vp"
+    },
+    {
+      "name": "topMarginDoublelineList",
+      "value": "8vp"
+    },
+    {
+      "name": "heightDoublelineList",
+      "value": "48vp"
+    },
+    {
+      "name": "leftMarginDoublelineList",
+      "value": "12vp"
+    },
+    {
+      "name": "rightMarginDoublelineList",
+      "value": "11vp"
+    },
+    {
+      "name": "bottomMarginPrimaryText",
+      "value": "2vp"
+    },
+    {
+      "name": "textSizePrimaryText",
+      "value": "16fp"
+    },
+    {
+      "name": "textSizeSecondaryText",
+      "value": "12fp"
+    },
+    {
+      "name": "heightTouchTarget",
+      "value": "48vp"
+    },
+    {
+      "name": "widthTouchTarget",
+      "value": "48vp"
+    },
+    {
+      "name": "heightDoublelineListButton",
+      "value": "24vp"
+    },
+    {
+      "name": "widthDoublelineListButton",
+      "value": "24vp"
+    }
+  ]
+}

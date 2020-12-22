@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "m_card"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Business Card Ability"
+    },
+    {
+      "name": "secondability_description",
+      "value": "hap sample empty page"
+    },
+    {
+      "name": "titleContactsDetail",
+      "value": "User Name"
+    },
+    {
+      "name": "textIntervalRightButton",
+      "value": "Button"
+    },
+    {
+      "name": "textIntervalLeftButton",
+      "value": "Title"
+    }
+  ]
+}

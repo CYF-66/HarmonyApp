@@ -1,0 +1,70 @@
+{
+  "app": {
+    "bundleName": "com.example.harmonyapp",
+    "vendor": "example",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 3,
+      "target": 4,
+      "releaseType": "Beta1"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.harmonyapp",
+    "name": ".MyApplication",
+    "deviceType": [
+      "phone",
+      "tv"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "reqPermissions": [{"name": "ohos.permission.CAMERA"}],
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home",
+              "action.second"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.example.harmonyapp.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "HarmonyApp",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.harmonyapp.ListContainerAbility",
+        "icon": "$media:icon",
+        "description": "$string:secondsability_description",
+        "label": "ListContainer",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.harmonyapp.TabListAbility",
+        "icon": "$media:icon",
+        "description": "$string:tablistability_description",
+        "label": "TabList",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}

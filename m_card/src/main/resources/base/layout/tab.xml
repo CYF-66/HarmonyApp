@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:tab"
+    ohos:height="match_content"
+    ohos:width="0vp"
+    ohos:alignment="center"
+    ohos:orientation="vertical"
+    ohos:weight="1">
+
+    <Image
+        ohos:id="$+id:bottom_tab_button_image"
+        ohos:height="$float:heightTab"
+        ohos:width="$float:widthTab"/>
+
+    <Text
+        ohos:id="$+id:bottom_tab_button_text"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text_alignment="top|horizontal_center"
+        ohos:text_color="$color:colorTabTextNormal"
+        ohos:text_size="$float:textSizeTab"/>
+
+</DirectionalLayout>

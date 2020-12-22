@@ -1,0 +1,24 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "HarmonyApp"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "return_back",
+      "value": "返回1"
+    },
+    {
+      "name": "secondsability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    },
+    {
+      "name": "tablistability_description",
+      "value": "Java_Phone_Empty Feature Ability"
+    }
+  ]
+}

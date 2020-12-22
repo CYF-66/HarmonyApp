@@ -1,0 +1,1 @@
+C:\User\Huawei\DevEco Studio\plugins\codecheck\lib\CodeMars\engines\SecFinder-J\rule\

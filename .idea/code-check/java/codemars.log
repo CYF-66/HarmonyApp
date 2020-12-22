@@ -1,0 +1,30 @@
+2020-12-22 15:14:07.609 [main] INFO . - user input: C:\User\Huawei\DevEco Studio\jbr\bin\java,-j,-source,@C:/User/workspace/harmonyos/HarmonyApp/.idea/code-check/java/detect.txt,-output,C:/User/workspace/harmonyos/HarmonyApp/.idea/code-check/java/output.xml
+2020-12-22 15:14:07.611 [main] INFO . - CodeMars Version:2.1.2.sp4
+2020-12-22 15:14:07.685 [main] INFO . - starting analyzing.
+2020-12-22 15:14:07.698 [main] INFO . - start collecting report.
+2020-12-22 15:14:07.703 [CodeMars1] INFO . - Command: "C:\User\Huawei\DevEco Studio\plugins\codecheck\lib\CodeMars\engines\SecFinder-J\bin\run_SecFinder-J.bat",-filelist,C:\User\workspace\harmonyos\HarmonyApp\.idea\code-check\java\filelist_2020_12_22_15_14_07_698_27.txt,-f,xml,-default,-progress,-r,C:\User\workspace\harmonyos\HarmonyApp\.idea\code-check\java\\errorreport_2020_12_22_15_14_06_984_65.xml,-ruleclasspath,file:///C:\User\workspace\harmonyos\HarmonyApp\.idea\code-check\java\ruleclasspath.txt
+2020-12-22 15:14:07.977 [Thread-2] INFO . - 十二月 22, 2020 3:14:07 下午 com.huawei.secfinderj.SecFinderJ needScan
+2020-12-22 15:14:07.977 [Thread-2] INFO . - 信息: SecFinder-J Version: 2.1.3
+2020-12-22 15:14:08.089 [Thread-1] INFO . - 2020-12-22 15:14:08.029: SecFinder-J Output: Inspect start...
+2020-12-22 15:14:08.188 [Thread-1] INFO . - 2020-12-22 15:14:08.188: SecFinder-J Output: Load checkers...
+2020-12-22 15:14:08.381 [Thread-1] INFO . - 2020-12-22 15:14:08.381: SecFinder-J Output: Load config...
+2020-12-22 15:14:08.424 [Thread-1] INFO . - 2020-12-22 15:14:08.424: SecFinder-J Output: step 1/4: Find files
+2020-12-22 15:14:08.467 [Thread-1] INFO . - 2020-12-22 15:14:08.464: SecFinder-J Output: step 2/4: Process files
+2020-12-22 15:14:08.525 [Thread-1] INFO . - 2020-12-22 15:14:08.525: SecFinder-J Output: step 3/4: Run analysis...
+2020-12-22 15:14:08.526 [Thread-1] INFO . - 2020-12-22 15:14:08.526: SecFinder-J Output: [SecFinder-J--Thread--1] - during processing of [TabListAbilitySlice.java]
+2020-12-22 15:14:09.009 [Thread-1] INFO . - 2020-12-22 15:14:09.009: SecFinder-J Output: step 4/4: Result output...
+2020-12-22 15:14:09.010 [Thread-1] INFO . - 2020-12-22 15:14:09.009: SecFinder-J Output: Inspect finish...
+2020-12-22 15:14:09.010 [Thread-1] INFO . - Analysis result:
+2020-12-22 15:14:09.010 [Thread-1] INFO . -     files analyzed      : 1
+2020-12-22 15:14:09.010 [Thread-1] INFO . -     lines analyzed      : 84
+2020-12-22 15:14:09.010 [Thread-1] INFO . -     rules used          : 59
+2020-12-22 15:14:09.010 [Thread-1] INFO . -     issues detected     : 0
+2020-12-22 15:14:09.010 [Thread-1] INFO . -     time cost(sec)      : 0
+2020-12-22 15:14:09.010 [Thread-1] INFO . - 
+2020-12-22 15:14:09.010 [Thread-2] INFO . - 十二月 22, 2020 3:14:09 下午 com.huawei.secfinderj.override.HwPmd end
+2020-12-22 15:14:09.010 [Thread-2] INFO . - 信息: SecFinder-J run successed!
+2020-12-22 15:14:09.050 [CodeMars1] INFO . - start parse errorreport xml
+2020-12-22 15:14:09.052 [CodeMars1] INFO . - parse xml time : 4
+2020-12-22 15:14:09.052 [CodeMars1] INFO . - end parse errorreport xml
+2020-12-22 15:14:09.055 [main] INFO . - end collecting report.
+2020-12-22 15:14:09.056 [main] INFO . - end analyzing.

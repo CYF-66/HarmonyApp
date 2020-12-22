@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+                   ohos:height="match_content"
+                   ohos:width="match_parent" ohos:orientation="vertical">
+    <Text
+        ohos:id="$+id:item_chlid_textview"
+        ohos:height="40vp"
+        ohos:width="match_parent"
+        ohos:background_element="#DCDCDC"
+        ohos:text_color="#000"
+        ohos:text_size="18fp"/>
+    <Component
+        ohos:height="1vp"
+        ohos:width="match_parent"
+        ohos:background_element="#EAEAEC"
+    />
+
+</DirectionalLayout>

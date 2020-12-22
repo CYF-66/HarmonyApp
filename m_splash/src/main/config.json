@@ -1,0 +1,50 @@
+{
+  "app": {
+    "bundleName": "com.example.harmonyapp",
+    "vendor": "example",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 3,
+      "target": 4,
+      "releaseType": "Beta1"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.m_splash",
+    "name": ".MyApplication",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "m_splash",
+      "moduleType": "feature"
+    },
+    "abilities": [
+      {
+        "orientation": "portrait",
+        "visible": true,
+        "name": "com.example.m_splash.SplashScreenAbility",
+        "icon": "$media:icon",
+        "description": "$string:splashscreenability_description",
+        "label": "SplashScreenFa",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "portrait",
+        "visible": true,
+        "name": "com.example.m_splash.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "m_splash",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "app": {
+    "bundleName": "com.example.harmonyapp",
+    "vendor": "example",
+    "version": {
+      "code": 1,
+      "name": "1.0"
+    },
+    "apiVersion": {
+      "compatible": 3,
+      "target": 4,
+      "releaseType": "Beta1"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.m_catagetory",
+    "name": ".MyApplication",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "m_catagetory",
+      "moduleType": "feature"
+    },
+    "abilities": [
+      {
+        "visible": true,
+        "name": "com.example.m_catagetory.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "m_catagetory",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}
