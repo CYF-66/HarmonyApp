@@ -1,42 +1,51 @@
 package com.example.harmonyapp.slice;
 
 import com.example.harmonyapp.ResourceTable;
+import com.example.harmonyapp.base.BaseAbilitySlice;
+import com.example.harmonyapp.butterknife.Bind;
 import ohos.aafwk.ability.AbilitySlice;
 import ohos.aafwk.content.Intent;
+import ohos.agp.components.Component;
+import ohos.agp.components.DirectionalLayout;
 import ohos.agp.components.TabList;
 import ohos.agp.components.Text;
 import ohos.agp.utils.LayoutAlignment;
 import ohos.agp.window.dialog.ToastDialog;
 
-public class TabListAbilitySlice extends AbilitySlice {
+public class TabListAbilitySlice extends BaseAbilitySlice implements Component.ClickedListener{
 
-    private Text mTvBack;
+    @Bind(ResourceTable.Id_dl_left)
+    private DirectionalLayout mDlBack;
+    @Bind(ResourceTable.Id_tv_title)
     private Text mTvTitle;
-
+    @Bind(ResourceTable.Id_tab_list)
     private TabList mTabList;
 
     private  String[] str={"image","Video","Audio","Other"};
 
     private String content;
+
     @Override
-    public void onStart(Intent intent) {
-        super.onStart(intent);
-        super.setUIContent(ResourceTable.Layout_ability_tab_list);
-        content = intent.getStringParam("content");
-        initView();
+    public int getLayout() {
+        return ResourceTable.Layout_ability_tab_list;
     }
 
-    private void initView(){
-        mTvBack = (Text) findComponentById(ResourceTable.Id_text_back);
-        mTvTitle = (Text) findComponentById(ResourceTable.Id_text_title);
-        mTvBack.setClickedListener(component -> terminateAbility());
+    @Override
+    protected void initWidget() {
+        super.initWidget();
+        initView();
+        initListener();
+    }
 
+    @Override
+    protected void initData(Intent intent) {
+        super.initData(intent);
+        content = intent.getStringParam("content");
         mTvTitle.setText(content);
-        mTabList = (TabList) findComponentById(ResourceTable.Id_tab_list);
-        getTab();
+    }
 
-        mTabList.setFixedMode(true);
-
+    private void initListener(){
+        mDlBack.setClickedListener(this);
         mTabList.addTabSelectedListener(new TabList.TabSelectedListener() {
             @Override
             public void onSelected(TabList.Tab tab) {
@@ -65,6 +74,11 @@ public class TabListAbilitySlice extends AbilitySlice {
                         .show();
             }
         });
+    }
+
+    private void initView(){
+        getTab();
+        mTabList.setFixedMode(true);
     }
 
 
@@ -96,5 +110,18 @@ public class TabListAbilitySlice extends AbilitySlice {
     @Override
     public void onForeground(Intent intent) {
         super.onForeground(intent);
+    }
+
+    @Override
+    public void onClick(Component component) {
+        switch (component.getId()){
+            case ResourceTable.Id_dl_left:
+//                AbilitySlice targetSlice = new SecondsAbilitySlice();
+//                Intent intent = new Intent();
+//                intent.setParam("value", 10);
+//                present(targetSlice, intent);
+                terminateAbility();
+                break;
+        }
     }
 }

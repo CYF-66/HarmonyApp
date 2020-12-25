@@ -1,0 +1,10 @@
+{
+  "strings": {
+    "title": "Title",
+    "list": "List",
+    "img-text": "Display Image"
+  },
+  "Files": {
+    "img": "/common/arrow.png"
+  }
+}

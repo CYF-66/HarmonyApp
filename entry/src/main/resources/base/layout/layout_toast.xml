@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+    <Text
+        ohos:id="$+id:msg_toast"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:padding="5vp"
+        ohos:multiple_lines="true"
+        ohos:max_text_lines="2"
+        ohos:layout_alignment="center"
+        ohos:text_size="16fp"
+        ohos:margin="20vp"
+        ohos:text="This is a ToastDialog for the customized component"
+        ohos:background_element="$graphic:button_skip"/>
+</DirectionalLayout>

@@ -4,6 +4,7 @@
     ohos:height="match_parent"
     ohos:width="match_parent"
     ohos:orientation="vertical">
+
     <DependentLayout
         ohos:height="45vp"
         ohos:width="match_parent"
@@ -58,33 +59,22 @@
             ohos:align_parent_right="true"
             ohos:image_src="$media:more_icon"
             ohos:right_margin="15vp"
-            ohos:visibility="hide"
             ohos:vertical_center="true"/>
         <Image
             ohos:id="$+id:im_share"
             ohos:height="16vp"
             ohos:width="16vp"
-            ohos:visibility="hide"
             ohos:image_src="$media:share_icon"
             ohos:left_of="$id:more_iv"
             ohos:right_margin="10vp"
             ohos:vertical_center="true"/>
     </DependentLayout>
-    <TabList
-        ohos:id="$+id:tab_list"
-        ohos:top_margin="10vp"
-        ohos:tab_margin="24vp"
-        ohos:tab_length="140vp"
-        ohos:text_size="20fp"
-        ohos:clickable="true"
-        ohos:height="36vp"
+
+    <ListContainer
+        ohos:id="$+id:selector_list"
+        ohos:height="match_content"
         ohos:width="match_parent"
-        ohos:layout_alignment="center"
-        ohos:orientation="horizontal"
-        ohos:text_alignment="center"
-        ohos:normal_text_color="#999999"
-        ohos:selected_text_color="#FF6A6A"
-        ohos:selected_tab_indicator_color="#FF6A6A"
-        ohos:selected_tab_indicator_height="2vp"/>
+        ohos:orientation="vertical"
+        ohos:layout_alignment="vertical_center"/>
 
 </DirectionalLayout>

@@ -25,7 +25,6 @@
       "moduleName": "entry",
       "moduleType": "entry"
     },
-    "reqPermissions": [{"name": "ohos.permission.CAMERA"}],
     "abilities": [
       {
         "skills": [
@@ -34,34 +33,32 @@
               "entity.system.home"
             ],
             "actions": [
-              "action.system.home",
-              "action.second"
+              "action.system.home"
             ]
           }
         ],
-        "orientation": "unspecified",
-        "name": "com.example.harmonyapp.MainAbility",
+        "orientation": "portrait",
+        "visible": true,
+        "name": "com.example.harmonyapp.ability.SplashScreenAbility",
         "icon": "$media:icon",
-        "description": "$string:mainability_description",
+        "description": "$string:splashscreenability_description",
         "label": "HarmonyApp",
         "type": "page",
         "launchType": "standard"
       },
       {
         "orientation": "unspecified",
-        "name": "com.example.harmonyapp.ListContainerAbility",
+        "name": "com.example.harmonyapp.ability.MainAbility",
         "icon": "$media:icon",
-        "description": "$string:secondsability_description",
-        "label": "ListContainer",
+        "description": "$string:mainability_description",
         "type": "page",
         "launchType": "standard"
       },
       {
         "orientation": "unspecified",
-        "name": "com.example.harmonyapp.TabListAbility",
+        "name": "com.example.harmonyapp.ability.PluginContainerAbility",
         "icon": "$media:icon",
-        "description": "$string:tablistability_description",
-        "label": "TabList",
+        "description": "$string:secondsability_description",
         "type": "page",
         "launchType": "standard"
       }

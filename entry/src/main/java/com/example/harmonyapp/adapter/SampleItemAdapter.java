@@ -1,8 +1,7 @@
 package com.example.harmonyapp.adapter;
 
 import com.example.harmonyapp.ResourceTable;
-import com.example.harmonyapp.bean.SampleItem;
-import com.example.m_library.adapters.NewsListAdapter;
+import com.example.harmonyapp.model.SampleEntry;
 import ohos.aafwk.ability.AbilitySlice;
 import ohos.agp.components.*;
 
@@ -10,9 +9,9 @@ import java.util.List;
 
 public class SampleItemAdapter extends RecycleItemProvider {
 
-    private List<SampleItem> list;
+    private List<SampleEntry> list;
     private AbilitySlice slice;
-    public SampleItemAdapter(List<SampleItem> list, AbilitySlice slice) {
+    public SampleItemAdapter(List<SampleEntry> list, AbilitySlice slice) {
         this.list = list;
         this.slice = slice;
     }

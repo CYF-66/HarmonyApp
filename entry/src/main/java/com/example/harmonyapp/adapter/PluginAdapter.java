@@ -1,8 +1,7 @@
 package com.example.harmonyapp.adapter;
 
 import com.example.harmonyapp.ResourceTable;
-import com.example.harmonyapp.bean.PluginEntry;
-import com.example.harmonyapp.bean.SampleItem;
+import com.example.harmonyapp.model.PluginEntry;
 import ohos.aafwk.ability.AbilitySlice;
 import ohos.agp.components.*;
 
